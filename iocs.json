@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "CTI Dossier - goo.su Infrastructure",
+    "author": "Condor2026",
+    "date": "2026-07-21",
+    "classification": "CRITICAL",
+    "description": "Indicators of Compromise for the SmokeLoader/PureHVNC campaign centered around IP 82.202.170.126 and domain goo.su."
+  },
+  "iocs": {
+    "ips": [
+      "82.202.170.126",
+      "104.18.20.226",
+      "151.101.130.133",
+      "142.251.152.119",
+      "34.51.26.60",
+      "172.67.139.105",
+      "104.21.38.221",
+      "185.43.4.171",
+      "5.35.99.229",
+      "104.18.20.213",
+      "104.18.21.213",
+      "104.20.26.136",
+      "172.66.157.237",
+      "185.129.100.100",
+      "162.159.36.2",
+      "195.35.60.233",
+      "212.1.212.131"
+    ],
+    "domains": [
+      "goo.su",
+      "ns1.goo.su",
+      "ns2.goo.su",
+      "www.goo.su",
+      "new.goo.su",
+      "my.goo.su",
+      "my2.goo.su",
+      "brainfestquiz.com",
+      "league24.online",
+      "pma.league24.online",
+      "mail.league24.online",
+      "sitemaps.league24.online",
+      "severcart.ru",
+      "static.severcart.ru",
+      "crbmart.severcart.ru",
+      "puriva-life.com",
+      "cheryclick.com",
+      "taikang.com.brainfestquiz.com",
+      "izhevsk.brainfestquiz.com",
+      "ab.mailer.brainfestquiz.com",
+      "wwwwww.admin.svdv.brainfestquiz.com"
+    ],
+    "hashes": [
+      "40894c483dbeabc94b5780849ba5b1a82df357c74aa170cae6f8f51ba79ba479",
+      "104da4f154c5cdadbeb6bcb95f51e3d1b0e12705118ae54d5a7cc5690244193d",
+      "01014287a5add64654fa80544837252c7ea49ef1204a098a77e9e3cb52d909ca",
+      "bafbb344d14fff0adbe12e84cd4f1fc3a11076063ffb4892a3e40d8d2c9ee379",
+      "0305e509f1c0a623bfdf9db85f6ca3c550cf6550a10ad32775b31ef81f98b50c",
+      "2b467effeb3b092a34b8f6b755c6801d3a8592af02b6cf961e0ed0d2ef882201",
+      "ed1bfb20e2968969db5541a5e0fab7c5d2b07b0e767dfe30f8993fe6d83d3b03",
+      "5d542e9118dc7f611d9fb3108c089a1ca3cd94f4eeba401b6ef2e49e26285d00",
+      "43fdb43cef2a3219c06d002b56d042c2d9387488f6662f77c5fc8f3333ccd56e",
+      "158a19eb94aa2f3e2f459db69ee10276c73b945dd6c5f8fc223cf2d85e2b5e33",
+      "d4d1e4c94d0c4cd3372485cdc801ac6a8c01be5f2a8e405f2f3bef9ae7aead67",
+      "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443",
+      "8d093f990bc0fd8fc1299c6ddf1bd203e5ea75d208a6d38f8733a9c9b6f48c6a",
+      "97da3c982874ec87dcba39e8ae9e8c8df8acd4e06f360a8a4179b82fa0014346",
+      "c0e5e374c107df953a89ffe23189e52be7ebaf1df0fc1f9713e68d7b4eef86e4",
+      "b2b738064abc8eec85db87b12998d5dc7de51c6b37a22d3d0ddb12fb89605933"
+    ],
+    "urls": [
+      "https://goo.su/qjxiX7QVsX7p",
+      "https://goo.su/3Dbzz",
+      "https://goo.su/dropes-ds",
+      "https://patch.com/missouri/stcharles/two-charged-with-theft",
+      "http://212.33.237.86/images/1/report.php"
+    ]
+  }
+}
