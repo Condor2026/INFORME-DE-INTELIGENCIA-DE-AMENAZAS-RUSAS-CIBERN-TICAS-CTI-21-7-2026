@@ -1,5 +1,7 @@
 # DOSSIER COMPLETO DE INTELIGENCIA DE AMENAZAS (CTI) - EXPEDIENTE `goo.su`
 
+![Condor2026](screenshot/image_condor.jpg)
+
 **Autor:** Condor2026  
 **Fecha:** 21 de Julio de 2026  
 **Clasificación:** CRÍTICO - ALTO RIESGO  
