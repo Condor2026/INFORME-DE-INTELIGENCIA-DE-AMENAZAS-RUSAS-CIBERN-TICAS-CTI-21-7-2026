@@ -1,6 +1,6 @@
 # DOSSIER COMPLETO DE INTELIGENCIA DE AMENAZAS (CTI) - EXPEDIENTE `goo.su`
 
-![Condor2026](analysis/screenshot/image_condor.jpg)
+![Condor2026](image_condor.jpg)
 
 **Autor:** Condor2026  
 **Fecha:** 21 de Julio de 2026  
