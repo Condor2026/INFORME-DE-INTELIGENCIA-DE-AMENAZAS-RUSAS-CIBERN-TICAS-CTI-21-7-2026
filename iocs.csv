@@ -1,0 +1,46 @@
+Type,Indicator,Severity,Notes
+IP,82.202.170.126,CRITICAL,Main C2 - Russia - JSC IOT
+IP,104.18.20.226,HIGH,Cloudflare CDN - Linked to goo.su
+IP,151.101.130.133,MEDIUM,Associated Infrastructure
+IP,142.251.152.119,MEDIUM,Associated Infrastructure
+IP,34.51.26.60,MEDIUM,Associated Infrastructure
+IP,172.67.139.105,HIGH,Cloudflare - Linked to goo.su
+IP,104.21.38.221,HIGH,Cloudflare - Linked to goo.su
+IP,185.43.4.171,MEDIUM,Linked to brainfestquiz.com
+IP,5.35.99.229,MEDIUM,Linked to izhevsk.brainfestquiz.com
+IP,2606:4700:3036::ac43:8b69,MEDIUM,IPv6 - Cloudflare
+Domain,goo.su,CRITICAL,Main Malicious URL Shortener - 89% Malware Rate
+Domain,ns1.goo.su,HIGH,Nameserver
+Domain,ns2.goo.su,HIGH,Nameserver
+Domain,www.goo.su,CRITICAL,Main Web Interface
+Domain,new.goo.su,HIGH,Alternative Entry
+Domain,my.goo.su,HIGH,User Panel (C2)
+Domain,my2.goo.su,HIGH,User Panel (C2)
+Domain,brainfestquiz.com,CRITICAL,Hosts multiple malicious subdomains - Resolves to 82.202.170.126
+Domain,league24.online,CRITICAL,C2 Infrastructure - Resolves to 82.202.170.126
+Domain,pma.league24.online,HIGH,PhpMyAdmin Panel (Potential Data Exfil)
+Domain,mail.league24.online,HIGH,Mail Server
+Domain,sitemaps.league24.online,MEDIUM,Sitemap
+Domain,severcart.ru,HIGH,eCommerce front (likely fake)
+Domain,static.severcart.ru,MEDIUM,Static resources
+Domain,puriva-life.com,HIGH,Fake/Legitimate looking domain
+Domain,cheryclick.com,HIGH,Fake/Legitimate looking domain
+Domain,taikang.com.brainfestquiz.com,MEDIUM,Subdomain Typosquatting
+Domain,izhevsk.brainfestquiz.com,HIGH,Geolocalized C2 endpoint
+Domain,ab.mailer.brainfestquiz.com,HIGH,Email exfiltration endpoint
+SSL,c0e5e374c107df953a89ffe23189e52be7ebaf1df0fc1f9713e68d7b4eef86e4,MEDIUM,Certificate associated with C2
+SSL,b2b738064abc8eec85db87b12998d5dc7de51c6b37a22d3d0ddb12fb89605933,MEDIUM,Certificate associated with C2
+SHA256,40894c483dbeabc94b5780849ba5b1a82df357c74aa170cae6f8f51ba79ba479,CRITICAL,SmokeLoader PE32 Sample
+SHA256,104da4f154c5cdadbeb6bcb95f51e3d1b0e12705118ae54d5a7cc5690244193d,CRITICAL,Android Banking Trojan (BlankBot/Copybara)
+SHA256,01014287a5add64654fa80544837252c7ea49ef1204a098a77e9e3cb52d909ca,HIGH,Malicious PPTX with Macros
+SHA256,bafbb344d14fff0adbe12e84cd4f1fc3a11076063ffb4892a3e40d8d2c9ee379,CRITICAL,Android APK (Banking/Spyware)
+SHA256,0305e509f1c0a623bfdf9db85f6ca3c550cf6550a10ad32775b31ef81f98b50c,HIGH,Malicious Outlook Email
+SHA256,2b467effeb3b092a34b8f6b755c6801d3a8592af02b6cf961e0ed0d2ef882201,HIGH,Malicious ZIP Archive
+SHA256,ed1bfb20e2968969db5541a5e0fab7c5d2b07b0e767dfe30f8993fe6d83d3b03,HIGH,Malicious RAR Archive
+SHA256,5d542e9118dc7f611d9fb3108c089a1ca3cd94f4eeba401b6ef2e49e26285d00,HIGH,Malicious DOC Document
+SHA256,43fdb43cef2a3219c06d002b56d042c2d9387488f6662f77c5fc8f3333ccd56e,HIGH,PE32 Executable (RAT/Loader)
+SHA256,158a19eb94aa2f3e2f459db69ee10276c73b945dd6c5f8fc223cf2d85e2b5e33,MEDIUM,Java Bytecode (Malicious Applet)
+SHA256,d4d1e4c94d0c4cd3372485cdc801ac6a8c01be5f2a8e405f2f3bef9ae7aead67,HIGH,Malicious PDF (Phishing)
+SHA256,0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443,MEDIUM,Text file containing C2 commands
+SHA256,8d093f990bc0fd8fc1299c6ddf1bd203e5ea75d208a6d38f8733a9c9b6f48c6a,MEDIUM,Text file - Config/Stolen Data
+SHA256,97da3c982874ec87dcba39e8ae9e8c8df8acd4e06f360a8a4179b82fa0014346,MEDIUM,XML Config for C2
